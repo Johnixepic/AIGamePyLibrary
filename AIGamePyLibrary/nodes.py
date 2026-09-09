@@ -1882,3 +1882,7 @@ def connectInputNodes(baseNode, inputTypes, inputs):
                     portName1 = outputPorts[num1 - 1]
 
         ConnectPorts((portName1, portName2), inputNode, baseNode)
+
+# Aliases for save-file-compatible node names
+ConstructVector3 = Vector3
+ConditionalSetFloatV2 = ConditionalSetFloat

@@ -79,6 +79,21 @@ NODE_SIZES = {
     "RacingV2Waypoint": (256, 96),
     "ConstructRacingV2Properties": (192, 320),
     "Stat": (256, 64),
+    # Debug / visualization nodes
+    "Debug": (256, 64),
+    "DebugDrawLine": (256, 128),
+    "DebugDrawDisc": (256, 128),
+    # Vector math nodes
+    "Normalize": (256, 64),
+    "RelativePosition": (256, 96),
+    "SubtractVector3": (256, 64),
+    "Distance": (256, 64),
+    # Conditional nodes
+    "ConditionalSetFloatV2": (256, 96),
+    "ConditionalSetVector3": (256, 96),
+    "ConditionalSetBool": (256, 96),
+    # Time plot
+    "TimePlot": (320, 128),
 }
 DEFAULT_NODE_SIZE = (256, 64)
 
